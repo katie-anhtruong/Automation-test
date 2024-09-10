@@ -12,8 +12,7 @@ import org.testng.annotations.Test;
 import automation.common.CommonBase;
 import automation.constant.CT_PageURLs;
 import automation.page.DangKiPage_DoiMatKhauPage_homeworkday14;
-import automation.page.LoginPageFactory_Day14;
-import automation.page.LogoutPageFactory_Day14;
+
 
 public class DangKiTest_DoiMatKhauTest_homeworkday14 extends CommonBase {
 	DangKiPage_DoiMatKhauPage_homeworkday14 signupFactory;

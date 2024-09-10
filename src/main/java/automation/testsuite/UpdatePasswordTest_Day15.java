@@ -22,6 +22,7 @@ public class UpdatePasswordTest_Day15 extends CommonBase{
 	 UpdatePassword_PageFactory updatePass = new UpdatePassword_PageFactory(driver);
 	 updatePass.LoginFunction("anhnhantruong95@gmail.com", "Na220295@");
 	 updatePass.UpdatePassword("Na220295@", "123456");
+	 assertTrue(driver.findElement(By.xpath("//div[text()='Đổi mật khẩu thành công. Mời bạn đăng nhập lại.']")).isDisplayed());
  }
  
 }
